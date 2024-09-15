@@ -9,10 +9,6 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import ru.vm.adapterservice.model.MsgA;
-import ru.vm.adapterservice.model.MsgB;
-
-import java.time.LocalDateTime;
-import java.util.Arrays;
 
 @Service
 public class WeatherService {
